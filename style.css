@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+/*  */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+#slides-container {
+  max-width: 460px;
+  max-height: 460px;
+  overflow: hidden;
+}
+
+button {
+  margin: 0 10px 0 10px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  flex: 1;
+}
+
+.slide.active {
+  display: block;
+}
+
+.loading {
+  max-width: 460px;
+  max-height: 460px;
+  display: block;
+}
+
+.loaded {
+  max-width: 460px;
+  max-height: 460px;
+  display: none;
+}
